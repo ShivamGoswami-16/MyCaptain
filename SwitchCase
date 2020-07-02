@@ -1,0 +1,26 @@
+#include<stdio.h>
+main(){int a;
+	printf("Enter a no. between 1 to 5: \n");
+	scanf("%d",&a);
+	switch(a)
+	{
+		case 1:
+			printf("Chhole Bhature\nRs.89");
+			break;
+		case 2:
+			printf("Burger\nRs.139");
+			break;
+		case 3:
+			printf("Bread Pakora\nRs.20");
+			break;
+		case 4:
+			printf("Pizza\nRs.299");
+			break;
+		case 5:	
+		printf("French Fries\nRs.79");
+		break;
+		default:
+			printf("Invalid Choice");
+		
+	}
+	}
