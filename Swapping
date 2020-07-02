@@ -1,0 +1,12 @@
+#include<stdio.h>
+main(){
+	int a,b; //declare variables
+ printf(" Enter 1st No.\n");
+ scanf("%d",&a); //input no.s here//
+ printf(" Enter 2nd No.\n" );
+ scanf("%d",&b);
+ a=a+b;
+ b=a-b; //basic math to swap variables// 
+ a=a-b;
+ printf("Now 1st no=%d and 2nd no=%d",a,b);
+}
